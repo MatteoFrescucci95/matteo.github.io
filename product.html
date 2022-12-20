@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="it">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pagina Prodotto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap');
+
+</style>
+
+<body>
+
+    <!--   Header-->
+    <header>
+
+        <div class="header due" id="header">
+            <div class="container-fluid">
+                <div class="row d-flex justify-content-center">
+
+                    <!--Logo-->
+                    <div class="logo col-sm d-flex flex-column align-self-center">
+                        <img src="img/logo.png" alt="">
+                    </div>
+
+                    <!--Navbar-->
+                    <div id="nbv2" class="col-sm d-flex flex-column align-items-center align-self-center">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="container-fluid">
+                                <button id="nvb due" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="func()">
+                    <span class="navbar-toggler-icon due"></span>
+                    </button>
+                                <!--Menu-->
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="menuT2 navbar-nav me-auto mb-2 mb-lg-0">
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="index.html">Demo</a>
+                                        </li>
+                                        <li class="nav-item badge1">
+                                            <a class="nav-link" href="">Shop</a>
+                                            <div class="badgeS d-flex align-items-center justify-content-center">New</div>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Products</a>
+                                        </li>
+
+                                        <li class="nav-item badge1">
+                                            <a class="nav-link saleM" href="#">Sale</a>
+                                            <div class="badgeM d-flex align-items-center justify-content-center">Sale</div>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Portfolio</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Lookbook</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Blog</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </nav>
+                    </div>
+
+                    <!--Icone-->
+                    <div class="col-sm d-flex flex-column align-items-center align-self-center">
+                        <div class="icons">
+                            <a href=""><i class="fa fa-search"></i></a>
+                            <a href=""><i class="fa fa-user-o"></i></a>
+                            <a href=""><i class="fa fa-heart-o"></i><span class="num">0</span></a>
+                            <a href=""><i class="fa fa-shopping-cart"></i><span class="num">0</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <!--       Singolo Prodotto-->
+        <div class="singleProd">
+            <div class="barT">
+                <div class="container">
+                    <div class="row">
+                        <div class="col breadC d-flex justify-content-center align-items-center">
+                            <p>Home</p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <p>New Arrival</p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            <p class="here">Blush Beanie</p>
+                        </div>
+                        <div class="col arroW d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+                            <a href=""> <i class="fa fa-th-large" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prod1 container zero">
+                <div class="row">
+                    <div class="col">
+                        <div class="imgCont container">
+                           <div class="row">
+                                 <div class="col-2 otherImg d-flex flex-column align-items-end">
+                                    <img src="img/pic1.png" alt="">
+                                    <img src="img/pic2.png" alt="">
+                                    <img src="img/pic3.png" alt="">
+                                    <img src="img/pic1.png" alt="">
+                                </div>
+                                  <div class="col-10 bigImg">
+                                      <img src="img/imgProd.jpg" alt="">
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="container">
+                           <p class="nameProd pb-2">Blush Bleanie</p>
+                           <div class="linePrize d-flex justify-content-between">
+                                 <p class="prizeProd">$15.00</p>
+                                <div class="stars d-flex justify-content-center align-items-center">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <p>(4 reviews)</p>
+                                </div>
+                                
+                            </div>
+                            <p class="descProd pt-3">Go sporty this summer with this vintage navy and white striped v-neck t-shirt from the Nike. Perfect for pairing with denim and white kicks for a stylish sporty vibe.</p>
+                            <div class="colorProd pt-3">
+                               <p>COLOR: PINK</p>
+                                <a href=""><span class="dotB pink"></span></a>
+                                <a href=""><span class="dotB grey"></span></a>
+                               <a href=""> <span class="dotB black"></span></a>
+                            </div>
+                              <div class="sizeProd pt-3">
+                               <p>SIZE: S</p>
+                                <a href=""><span class="dotB S">S</span></a>
+                                <a href=""><span class="dotB M">M</span></a>
+                               <a href=""><span class="dotB L">L</span></a>
+                            </div>
+                            <div class="btnProd pt-3">
+                                <button><i class="fa fa-minus" aria-hidden="true"></i>1<i class="fa fa-plus" aria-hidden="true"></i></button>
+                                <button>ADD TO CART</button>
+                                <button><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                            </div>
+                            <img class="servImg" src="img/serv.png" alt="">
+                            <div class="linkProd pt-3">
+                                <a href="">Size Guide</a>
+                                <a href="">Delivery & Return</a>
+                                <a href="">Ask a Question</a>
+                            </div>
+                            <div class="codProd">
+                                <p>SKU: PI5-1</p>
+                                <p>Categories: <a href="">All,</a>
+                                <a href="">Best seller,</a>
+                                <a href="">Bottom,</a><a href="">Dress,</a> <a href="">New Arrival,</a> <a href="">Women</a> 
+                                </p>
+                                <p>Tags: <a href="">Color Black,</a><a href="">Color Grey,</a><a href="">Color Pink,</a><a href="">Prize $7-$50,</a><a href="">Size L,</a>
+                                <a href="">Size M,</a>
+                                <a href="">Size S,</a>
+                                <a href="">Vendor H&M</a> 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="iconBack">
+                <div class="container d-flex">
+                    <div class="row d-block">
+                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-commenting" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-plus" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--       TShirt-->
+        <div class="t-shirt">
+
+
+            <div class="listB d-flex justify-content-center container">
+                <div class="text-center">
+                    <button type="button" class="btn">Description</button>
+                    <button type="button" class="btn">Additional Information</button>
+                    <button type="button" class="btn">Warranty e Shipping</button>
+                    <button type="button" class="btn">Custom tab</button>
+                    <button type="button" class="btn">Reviews</button>
+                </div>
+            </div>
+
+
+            <div class="pic3 container zero">
+                <div class="row">
+                    <p>Design inspiration lorrm ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna choncus neque, id pulvinar odio lorem non turpis. Nulilm sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero. Vivamus pharetra posuere sapien. Nam consectetuer. Sed aliquam, nunc eget euismod ullamcorper, lectus nunc ullamcorper orci..</p>
+                    <div class="pics">
+                        <div class="col text-center">
+                            <img src="img/pic1.png" alt="">
+                            <img src="img/pic2.png" alt="">
+                            <img src="img/pic3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shirt1 container">
+                <div class="row">
+
+                    <div class="caraTblk1 col d-flex align-items-center">
+                        <div class="caratT uno">
+                            <div class="carat align-items-center  d-flex justify-content-end uno">
+                                <p>Rain & Winter <br> Resistant</p>
+                                <i class="fa fa-cloud" aria-hidden="true"></i>
+                            </div>
+
+                            <div class="carat align-items-center  d-flex justify-content-end due">
+                                <p>UV Resistant <br> Coatings</p>
+                                <i class="fa fa-sun-o" aria-hidden="true"></i>
+                            </div>
+
+                            <div class="carat align-items-center  d-flex justify-content-end tre">
+                                <p>Corrosion Resistance <br> to sea water</p>
+                                <i class="fa fa-tint" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col picTshirt col d-flex justify-content-center">
+                        <img src="img/tShirt.png" alt="">
+                    </div>
+
+                    <div class="caraTblk2 col d-flex align-items-center">
+                        <div class="caratT due">
+                            <div class="carat d-flex justify-content-start align-items-center  quattro">
+                                <i class="fa fa-ban" aria-hidden="true"></i>
+                                <p>Lead-free <br> Powdercode finish</p>
+                            </div>
+
+                            <div class="carat d-flex justify-content-start align-items-center cinque">
+                                <i class="fa fa-cutlery" aria-hidden="true"></i>
+                                <p>Resistant to<br>Spills</p>
+
+                            </div>
+
+                            <div class="carat d-flex justify-content-start align-items-center  sei">
+                                <i class="fa fa-recycle" aria-hidden="true"></i>
+                                <p>Recyclable <br> Aluminium frame</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--Prodotti correlati-->
+        <div class="prodCorr container zero">
+            <div class="row pt-5">
+                <div class="txtH d-flex align-items-center flex-column pb-5">
+                    <h3>You may also like</h3>
+                </div>
+            </div>
+            <div class="container-fluid pb-5">
+                <div class="row justify-content-center">
+
+                    <div class="prod col-lg-4 col-xl-2">
+                        <div class="blkProd d-flex flex-column align-items-start">
+                            <div class="imgProd">
+                                <a href=""><img src="img/pc2.jpg" alt=""></a>
+                            </div>
+                            <div class="txtProd">
+                                <p>Mercury Tee</p>
+                                <p>$68.00</p>
+                            </div>
+                            <div class="dots">
+                                <span class="dot bg uno"></span>
+                                <span class="dot bg due"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prod col-lg-4 col-xl-2">
+                        <div class="blkProd d-flex flex-column align-items-start">
+                            <div class="imgProd">
+                                <a href=""><img src="img/pc1.jpg" alt=""></a>
+                                <div class="promo d-flex align-items-center justify-content-center">-29%</div>
+                            </div>
+                            <div class="txtProd">
+                                <p>Cymbal Pendant</p>
+                                <div class="prize1 justify-content-start d-flex">
+                                    <p>$60.00</p>
+                                    <p>40.00$</p>
+                                </div>
+                                <div class="dots">
+                                    <span class="dot pink"></span>
+                                    <span class="dot black"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prod col-lg-4 col-xl-2">
+                        <div class="blkProd d-flex flex-column align-items-start">
+                            <div class="imgProd">
+                                <a href=""> <img src="img/pc3.jpg" alt=""></a>
+                                <div class="promo d-flex align-items-center justify-content-center">-29%</div>
+                            </div>
+                            <div class="txtProd">
+                                <p>Chair Woods Legs</p>
+                                <div class="prize1 justify-content-start d-flex">
+                                    <p>$75.00</p>
+                                    <p>45.00$</p>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <span class="dot green"></span>
+                                <span class="dot pink"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prod col-lg-4 col-xl-2">
+                        <div class="blkProd d-flex flex-column align-items-start">
+                            <div class="imgProd">
+                                <a href=""> <img src="img/pc2.jpg" alt=""></a>
+                            </div>
+                            <div class="txtProd">
+                                <p>Chair Woods Legs</p>
+                                <p>25.00$</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+
+        <div class="foot1 container-fluid">
+            <div class="row">
+                <div class="col-lg uno">
+                    <img src="img/Logo.png" alt="">
+                    <p class="footLoc"><i class="fa fa-map-marker" aria-hidden="true"></i>184 Main Rd E, St. Albans VIC 3021, Australia</p>
+                    <p class="footMail"><i class="fa fa-envelope-o" aria-hidden="true"></i> contact@company.com
+                    </p>
+                    <p class="footCell"><i class="fa fa-phone" aria-hidden="true"></i>+001 2233 456 </p>
+                    <div class="footIcons">
+                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a>
+
+                    </div>
+                </div>
+                <div class="col-lg due">
+                    <h6>Categories</h6>
+                    <a href="">
+                        <p>Men</p>
+                    </a>
+                    <a href="">
+                        <p>Women</p>
+                    </a>
+                    <a href="">
+                        <p>Accessories</p>
+                    </a>
+                    <a href="">
+                        <p>Shoes</p>
+                    </a>
+                    <a href="">
+                        <p>Denim</p>
+                    </a>
+                    <a href="">
+                        <p>Dress</p>
+                    </a>
+                </div>
+                <div class="col-lg tre">
+                    <h6>Information</h6>
+                    <a href="">
+                        <p>About us</p>
+                    </a>
+                    <a href="">
+                        <p>Contact us</p>
+                    </a>
+                    <a href="">
+                        <p>Term & Conditions</p>
+                    </a>
+                    <a href="">
+                        <p>Return & Exchange</p>
+                    </a>
+                    <a href="">
+                        <p>Shipping & Delivery</p>
+                    </a>
+                    <a href="">
+                        <p>Privacy Policy</p>
+                    </a>
+                </div>
+                <div class="col-lg quattro">
+                    <h6>Useful links</h6>
+                    <a href="">
+                        <p>Store Location</p>
+                    </a>
+                    <a href="">
+                        <p>My Account</p>
+                    </a>
+                    <a href="">
+                        <p>Latest News</p>
+                    </a>
+                    <a href="">
+                        <p>Portfolio</p>
+                    </a>
+                    <a href="">
+                        <p>Size Guide</p>
+                    </a>
+                    <a href="">
+                        <p>FAQs</p>
+                    </a>
+                </div>
+                <div class="col-lg cinque newsl">
+                    <h6>Newsletter Signup</h6>
+                    <p>Subscribe to our newsletter and get 10% off your first purchase</p>
+          
+                        <div class="row">
+                            <form class="d-flex boxSub">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                    <label for="floatingInput">Your Email address</label>
+                                </div>
+                                <button type="submit" class="btnForm">Subscribe</button>
+                            </form>
+                            <img src="img/cards.png" alt="">
+                        </div>
+          
+
+                </div>
+            </div>
+        </div>
+        <div class="foot2 container d-flex">
+            <div class="col-md-6 col-4 d-flex flex-column align-items-center">
+                <!--                <p>Copyright 2022 - My Test Template</p>-->
+            </div>
+            <div class="col-md-6 col-8 d-flex flex-column align-items-center">
+                <div class="footMenu d-flex">
+                    <a href="">
+                        <p>Shop</p>
+                    </a>
+                    <a href="">
+                        <p>About Us</p>
+                    </a>
+                    <a href="">
+                        <p>Contact</p>
+                    </a>
+                    <a href="">
+                        <p>Blog</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
+
+
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+
+
+    </script>
+
+    <script>
+        //Js Mod
+
+        //scroll head color
+        const menu = document.querySelector(".header");
+        document.addEventListener("scroll", () => {
+            if (document.documentElement.scrollTop > 0) menu.classList.add("headO2");
+            else menu.classList.remove("headO2");
+        });
+
+
+        function func() {
+            document.getElementById("header").classList.toggle("head12")
+        }
+
+    </script>
+
+</body>
